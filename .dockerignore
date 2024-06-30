@@ -1,0 +1,15 @@
+### Files to ignore in the root
+
+fly.toml
+.git
+
+### Files to ignore in the .client
+
+client/node_modules
+
+### Files to ignore in the /api
+
+api/target
+api/.cargo
+api/**/\*.sh
+api/**/\*.tar.gz
