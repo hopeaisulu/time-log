@@ -1,9 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
+import Button from '@mui/material/Button';
 import './App.css';
 
 function App() {
-  return (<h1>Hello, react! Updated</h1>);
+  return(
+  <div className="App">
+  <Button variant="outlined">Hello world</Button>
+</div>)
 }
 
 export default App;
